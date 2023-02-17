@@ -1,0 +1,80 @@
+23.02.16. 수업
+
+ 1. 깃 사용법
+
+깃으로 파일관리 시작하기(깃 시작시 한번만): git init
+*.git 폴더 생성 확인
+현재 깃의 상태보기: git status
+
+(혼자 사용하는 컴퓨터라면 한번만, 다른 환경이면 한번 씩)
+깃에 이름 남기기: git config --global user.name "jihyeok"
+깃에 이메일 남기기: git config --global user.email "kidjh@naver.com"
+
+깃에 설정한(이름,이메일) 확인하기: git config --list
+
+깃에 파일 중간단계(staging area)에 저장하기: git add (예/test.txt)
+                              모든파일 저장하기: git add .
+깃에 해당 파일을 staging area에서 삭제: git rm --cashed (파일명 예/test.txt)
+깃에 커밋하기:  git commit -m "(예/첫번째커밋입니다.)"
+                         * git commit 만 입력시
+                           i 누르면 텍스트 입력 가능
+                           :wq : 저장후 종료
+                           :q : 저장안하고 종료
+깃 커밋 이후 변경 로그 확인하기: git log
+
+*파일의 수정이 일어난다면 add부터 다시 진행
+
+*추가와 커밋을 동시에 한다: git commit -am "메시지"  
+(***추가된 파일은 정석대로 해야함)
+ -메시지 작성을 안한다면 커밋 취소
+
+
+ 2. 깃 허브(repository)에 밀어(저장) 넣는 과정
+
+*푸시하기전에는 완벽한 커밋 필수*
+
+원격 저장소(origin:이름)에 저장 하는 법: git remote add origin (본인의깃계정) (예/https://github.com/cjh000427/git_practice.git)
+              -- 예/  git remote add origin https://github.com/cjh000427/git_practice.git   --
+
+깃허브(원격 저장소 이름:origin)에 연결된지 확인 하는 법: git remote -v
+
+깃 허브(repository)에 밀어(push) 넣는 법: git push origin master
+
+
+3. 깃 허브에서 끌고(pull) 오는 방법
+
+- 깃 허브 페이지에서 repositorys 클릭
+- 받고싶은 폴더에 깃 배쉬 키고 init 실행 
+- git remote -v로 확인(origin 등록됬는지 확인) 
+- (등록 안됬다면)git remote add origin https://github.com/cjh000427/git_practice.git(받고싶은 깃 허브 주소)
+- git pull origin master
+
+
+**********************작업이 다끝난 후 푸쉬(push)해놓고 작업시작 전 풀(pull)하기
+
+
+
+***깃 단축키
+
+붙여넣기 : shift insert
+* git commit 만 입력시
+  i 누르면 텍스트 입력 가능
+  :wq : 저장후 종료
+  :q : 저장안하고 종료
+
+
+깃 이름
+cjh000427
+
+* (head → master) 뜻: 현재 위치
+
+***
+작업공간: working directory
+변경사항 중 후보들이 올라가는 공간: staging area
+실제 저장소: repository
+
+
+깃에 푸쉬할 때
+gitignore.io 들어가서 자바와 이클립스 선택
+푸쉬할 파일에 텍스트 파일에 복붙 후 커밋
+푸쉬
