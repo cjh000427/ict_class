@@ -1,0 +1,11 @@
+23.02.28.
+
+- RussianRoulette --> 혼자 쓰다가 멈춘 파일
+- Russian_teach --> 강사님이 쓴 파일
+
+새로운 클래스에 러시안룰렛 다시 써보기
+
+1. method
+-MethodExample1
+
+퇴실 찍기
