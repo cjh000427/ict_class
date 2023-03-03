@@ -1,0 +1,40 @@
+23.03.03.
+
+PenMain에 객체 설명
+
+--객체--
+
+1. constructor
+- BreadMain
+- Phone
+- PhoneMain
+*퀴즈
+ - Bread
+ - BreadMain
+
+--패키지 설명(예시)--
+2. fruit
+3. test
+----------------------
+4. string
+ - user
+ - CompareStr
+ - StringMethod
+ - StringQuiz01    // 다시했음
+ - StringQuiz02
+
+5. oop.inherit.bad
+ - Warrior
+ - Mage
+ - Hunter
+
+6. oop.inherit.good
+ - Player
+ - Warrior
+ - MainClass 
+   (super 키워드)
+
+*********************
+- sc.next() -> 공백이 생긴다면 공백 전까지의 String 값만 받음
+- sc.nextLine() -> 앞, 뒤, 중간 공백을 포함한 String 값을 받음
+- char 타입은 ' '로 써야함
