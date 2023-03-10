@@ -21,7 +21,7 @@ PenMain에 객체 설명
  - CompareStr
  - StringMethod
  - StringQuiz01    // 다시했음
- - StringQuiz02
+ - StringQuiz02   *주민번호 퀴즈
 
 5. oop.inherit.bad
  - Warrior

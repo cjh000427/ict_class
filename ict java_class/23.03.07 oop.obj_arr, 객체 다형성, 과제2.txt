@@ -1,0 +1,37 @@
+23.03.07
+
+1.oop.obj_arr  *배열에 객체 넣는 예시
+ - Person
+ - MainClass
+ - ArrayInsert    *퀴즈 혼자 성공
+
+---------- 객체 다형성 ---------------
+ 
+2. oop.poly.basic
+ - Basic   *개념설명
+
+3.oop.poly.car
+ - Car  (부모 클래스)
+ - Sonata
+ - Porsche
+ - Tesla
+ - MainClass
+
+ - Tire (타이어의 부모 클래스)
+ - HTire
+ - NTire
+
+ - Driver (buyCar 메서드 : 구입합니다)
+
+ - CarShop (키워드 instanceof 설명)
+
+
+4.oop.poly.casting
+ - Parent
+ - Child
+ - MainClass 
+  *32열 결과 값을 이해 못했던 코드 
+   (결과 값: 재정의한 1번 메서드 호출!)
+
+-------------------------------------
+*과제2

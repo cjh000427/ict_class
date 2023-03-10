@@ -1,0 +1,52 @@
+23.03.09.
+
+--------- implements(키워드)  ------------
+*클래스 이름 다음에 적어서 사용
+
+1. oop.inter.basic
+ - Inter2
+ - ImplClass1
+ - ParentInter
+ - ImplClass2
+ - ImplClass3
+ - MainClass (인터페이스의 다형성)
+
+2. oop.inter.bad
+ - Join
+ - Login
+ - Update
+ - Delete
+ - MainClass
+
+3. oop.inter.good
+ - IUserService (인터페이스는 이름 앞에 I 를 붙이는게 관례임)
+ - Join
+ - Login
+ - Update
+ - Delete
+ - MainClass
+------------------------------------------------
+
+---------------  예외 처리  -----------------
+* try, catch(키워드) 
+4. etc.execption.basic       
+ - TryCatchExample       * 예외 처리(Exception) 설명
+ - MultiCatchExample    * 다중 catch문
+ - MainClass *퀴즈
+ - FinallyExample
+
+5. etc.execption.throws_
+* throws (키워드) 설명
+ - ThrowsExample   *printStackTrace() 메서드
+
+6. ThrowExample
+* throw (키워드) 설명
+
+------퀴즈-------   ***다시
+7. oop.obj_arr
+ - Score
+ - ScoreMain
+
+
+
+

@@ -1,0 +1,84 @@
+23.03.08.
+
+1.oop.poly.player    *퀴즈
+ - MainClass
+ - Player 와 직업들3개
+
+--------- static 설명 --------------
+ * 변수에 static 붙이는 예시
+2.oop.static_.field  
+ - Count 
+ - MainClass
+
+ * 메서드에 static 붙이는 예시
+3. oop.static_.method
+ - Count 
+ - MainClass
+
+ * static 예시
+4. oop.static_.clac
+ - calculator
+
+ * 정적 초기화
+5.oop.static_.init
+ - DBManager
+ - MainClass
+
+ * static과 private
+6.oop.static_.singleton
+ - Singleton
+ - MainClass
+--------------------------------
+
+------------ final ----------------
+* 변수
+7. oop.final_.field
+ - Person
+ - MainClass
+
+* 메서드에서 오버라이딩 방지 (# 호출은 가능)
+* 클래스
+8. oop.final_.method
+ - Parent
+ - Child
+
+* 상수 (constant) (상수는 대문자로( _  사용가능): 관례임)
+9. oop.final_.constant
+ - Earth
+
+---------------------------------------
+
+--------------- 추상(abstract) -----------------
+10. oop.abs.bad
+ - HeadStore (부모 클래스)
+ - SeoulStore
+ - MainClass
+
+* 추상(abstract) 주석 포함
+11. oop.abs.good
+ - HeadStore
+ - SeoulStore
+ - MainClass
+
+12. oop.abs.pet
+ - Pet
+ - Cat
+ - Dog
+ - MainClass
+
+**private 선언 시 바로 getter와 setter 세팅 바로 해주기
+
+----------------------------------------
+
+----------------인터페이스------------------
+13.oop.inter
+ - Inter (인터페이스 기본 개념)
+
+*계속
+-----------------------------------------
+
+14. oop.abs.quiz (자습 퀴즈) 
+ - Shape
+ - MainClass
+ - Circle
+ - Rect

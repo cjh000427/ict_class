@@ -1,0 +1,62 @@
+23.03.06. 
+
+- 오버라이딩 
+ *oop.inherit.good.Warrior 에 설명 있음
+
+메서드의 오버로딩 *개념 다시보기
+1. oop.overloading
+ - Calculator
+ - MainClass
+
+2. this_super (키워드 설명)
+ - Player
+ - MainClass
+
+
+- ---접근 제한자-----
+
+default 는 같은 패키지에서만 사용 가능
+private 는 같은 클래스에서만 사용 가능
+
+3. oop.modi.cls.pac1
+ - A
+ - B
+
+4. oop.modi.cls.pac2
+ - C
+5.oop.modi.constructor.pac1
+ - A
+ - B
+6.oop.modi.constructor.pac2
+ - C
+
+7.oop.modi.member.pac1
+ - A
+ - B
+8. oop.modi.member.pac2
+ - C
+
+*protected 예시
+
+-protected 제한자는 패키지가 다른 경우
+ 두 클래스 사이에 상속 관계가 있다면
+ super 키워드를 통해 참조를 허용합니다.
+
+9.oop.modi.protec.pac1
+ - A
+ - B
+10.oop.modi.protec.pac2
+ - C
+----------------------
+
+객체 은닉
+11.oop.encap.bad
+ - MyBirth
+ - MainClass
+
+12.oop.encap.good
+ - MyBirth (캡슐화(은닉) 관련 설명 주석)
+ - MainClass
+
+
+*main에서 생성자커서 위에서 F3 누르면 생성자로 이동
