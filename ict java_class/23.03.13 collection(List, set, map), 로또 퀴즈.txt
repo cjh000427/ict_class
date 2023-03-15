@@ -1,0 +1,31 @@
+23.03.13.
+
+1. etc.api.util.random
+ - RandomExample  *로또 퀴즈시 참조
+
+--------------------- collection --------------------------
+2. etc.collection.list
+ - ArrayListExample	      *List, Collections 메서드 예시들
+ - ListDelete	*퀴즈
+ - User
+ - ListQuiz02	*퀴즈
+ - LinkedListExample
+ - ListCompare
+
+3. etc.collection.set	
+ - HashSetExample	*Iterator 객체 설명
+ - LottoCreate	*로또 번호 추첨 로직 (중복발생 로직 유무 비교 )
+
+4. etc.collection.map
+ - HashMapExample
+ - MapQuiz	*퀴즈
+
+
+--- 자습 퀴즈 *03.15. 전까지 제출
+5. etc.api.util.random
+ - LottoSimulator
+
+
+
+
+

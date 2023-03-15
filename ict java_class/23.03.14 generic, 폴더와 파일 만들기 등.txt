@@ -1,0 +1,48 @@
+23.03.14.
+*다 다시 보기
+------------------ generic ------------------------
+1. etc.generic.bad
+ - Box
+ - Person
+ - MainClass	*안 좋은 예시인 이유 주석
+
+2. etc.generic.basic
+ - Box
+ - Person
+ - MainClass	*제네릭 개념 설명
+
+3. etc.generic.basic02
+ - Basic
+ - MainClass
+
+---------------------- 파일 ----------------------------
+
+4. etc.api.io.stream
+ - OutputStreamEx	*파일 만들기
+ - InputStreamEx	*파일 불러오기
+ - StreamCopy	*파일 복사
+ - FileQuiz	*다시하기
+
+5. etc.api.io.folder
+ - CreateFolder	*폴더 만들기
+ - DeleteFile	*폴더 및 파일 삭제
+
+6. etc.api.io.rw
+ - FileWriterEx
+ - FileReaderEx
+
+* 향상된 파일 만들기 불러오기
+7. etc.api.io.buffered
+ - BufferedWriterEx
+ - BufferedReaderEx
+ - BufferedInputStreamEx
+ - BufferedOutputStreamEx
+ - BufferedQuiz	*다시..
+
+ - BufferedQuiz_teach 
+
+---------------------------------------
+
+
+
+
