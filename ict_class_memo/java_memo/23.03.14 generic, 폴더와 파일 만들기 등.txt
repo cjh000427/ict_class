@@ -17,7 +17,8 @@
 
 ---------------------- 파일 ----------------------------
 
-4. etc.api.io.stream
+4. etc.api.io.stream	*바이트 기반 (텍스트 제외 사용(그림, 영상 등))
+
  - OutputStreamEx	*파일 만들기
  - InputStreamEx	*파일 불러오기
  - StreamCopy	*파일 복사
@@ -27,7 +28,8 @@
  - CreateFolder	*폴더 만들기
  - DeleteFile	*폴더 및 파일 삭제
 
-6. etc.api.io.rw
+6. etc.api.io.rw	*문자 기반 (텍스트 전용)
+
  - FileWriterEx
  - FileReaderEx
 
