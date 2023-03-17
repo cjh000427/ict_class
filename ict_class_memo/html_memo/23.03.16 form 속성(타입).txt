@@ -1,7 +1,5 @@
 23.03.16.
 
-
-
 4. 멀티미디어
  - 4. iframe.html	*영상 링크로
 
@@ -52,12 +50,12 @@ selected: 기본값으로 설정하는 타입
  - 4. select, option.html
 	<select>,<option>,<optgroup>,<datalist>
 
-
-
-
-
-
-
+7. 전역속성
+ - 1. class, id.html
+ - 2. style, title.html
+ - 3. 특수기호.html
+	(&nbsp; &ensp; &emsp;) :텍스트 사이 벌리기 		//암기 x
+	&lt; -> (< 출력) , &gt; -> (> 출력) ,  &quot; -> (" 출력)	//암기 x
 
 
 
