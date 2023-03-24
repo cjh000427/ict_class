@@ -1,0 +1,47 @@
+23.03.20.
+
+ *reset.css
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+
+5. 박스모델
+ - 박스모델.2. 박스속성
+  - 10. 종합실습2.html	*다시
+
+6. 폰트
+ - 1. line-height.html
+ - 2. font-family.html	*글꼴
+ - 3. color.html
+ - 4. text-align.html
+
+7. 배경
+ - 1. background.html
+ - 2. bg-attachment.html
+ - 3. 실습.html
+
+8. 전통적레이아웃
+ - 1. basic.html
+ - 2. 박스수평정렬.html
+ - 3. float해제.html
+ - 4. 실습.html
+ - 5. 실습2.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
