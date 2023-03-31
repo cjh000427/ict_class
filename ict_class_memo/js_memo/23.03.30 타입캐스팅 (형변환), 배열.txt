@@ -1,0 +1,64 @@
+23.03.30.
+
+6. 타입캐스팅 (형변환)
+ - 암묵적변환.html
+ - 명시적변환.html
+ - truthy,false.html
+
+7. 배열
+ - array-basic.html
+ - for-of.html
+ - array-2d.html
+ - push, shift.html
+ - etc.html
+ - splice.html
+ - arr-quiz.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

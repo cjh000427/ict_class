@@ -1,0 +1,128 @@
+23.03.28.
+
+입력 : git clone (주소) .
+-> 깃 안에 저장된 폴더만 클론하기
+	* .(온점) 안쓸 시 폴더까지 같이 클론됨
+
+깃 브랜치 이름 보는 코드
+ - git branch --list
+
+ - git branch --all
+
+---------------------------------------------------------
+파일 만드는 코드
+ - touch 'food.txt'
+
+파일 여는 코드
+ - notepad 'food.txt'
+
+폴더 만드는 코드
+ - mkdir 'diary'
+
+경로 이동하는 코드
+ - cd 'diary'
+ - cd .. 		*이전 경로로 이동
+
+브랜치 생성 코드
+ - git branch 'feat/food'
+
+브랜치 ' ' 으로 이동하는 코드 
+ - git switch 'feat/food'
+
+로그 보는 법
+git log --oneline --graph --all
+
+마스터 브랜치에 ' ' 브랜치를 합치는 코드	* 브랜치를 마스터로 이동한 후 작성
+ - git merge 'feat/food'
+
+브랜치 ' '을 삭제하는 코드
+git branch -d 'feat/food'
+
+마스터에 ' ' 브랜치 만들면서 이동하는 코드
+git switch -c 'feat/hobby' master
+
+
+ * 3-way-merge 
+1. 충돌 사항이 없을 때 
+ - 브랜치 한개 씩 머지 하고 두번째 브랜치 머지할 때 아래 진행
+ - i 눌러서 insert모드 들어가서 커밋 내용 수정 후 esc 눌러서 나감
+ - :wq 저장 후 종료(나가기)
+
+2. 충돌 사항이 있을 때
+ - 두번째 브랜치까지 머지 한 후 (master/MERGING) 이 뜬다면
+   충돌된 내용 수정 후 add와 commit 진행하면 됨
+
+
+pull -> fetch와 merge
+
+내용만 가져오는 코드	*무슨 내용인지 확인 후 머지하기 위함
+ - git fetch origin
+
+
+원격에서 브랜치 삭제하는 코드
+ - git push origin --delete '브랜치명'
+
+
+원격 저장소의 fix/music을 바로 가져옴
+ - git switch -c fix/music origin/fix/music
+
+----------------------------------------------------------------------
+직전 커밋 취소하는 법
+ - git commit --amend -m ""
+
+커밋 삭제하는 법 2가지
+1. revert
+** revert : 커밋이 완전 사라지진 않고 다시 커밋한 내용으로 덮어짐
+	*커밋이 남아있기 때문에 안전함.
+ - git revert '지우고싶은 커밋아이디 ex) 864b10b'
+ - (reverting)이 뜨면 파일을 원하는대로 수정
+ - 그리고 다시 커밋
+
+2. reset
+ - git reset --hard '지우고싶은 커밋아이디'
+hard: 모두 취소
+mixed: add를 취소, 내가 수정하는 파일은 변함없음
+soft: commit만 취소, add는 남아있음
+
+*** git reset --hard HEAD~~
+	* ~ 은 HEAD기준으로 물결 개수 만큼 전 커밋을 지칭
+
+*** reset취소하는 코드: git reset --hard ORIG_HEAD
+
+
+
+
+---------------------------------------------------
+organization 사용법
+
+1. git clone 깃헙주소
+
+2. git branch 브랜치1  // 브랜치 생성
+
+3. branch작업 -> master와 merge -> push 순서로 가야한다
+ git switch 브랜치1           //이동
+ git add . 
+ git commit -m "무슨부분추가"   //브랜치커밋
+
+ git switch master            //이동
+ git merge 브런치1              //master를 브랜치1과 합치기
+ git push origin master         //push
+
+
+
+* 깃허브 주소 주인이 승인을 해줘야 푸쉬가능
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
