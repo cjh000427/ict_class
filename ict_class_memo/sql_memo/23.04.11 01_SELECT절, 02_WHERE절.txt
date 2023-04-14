@@ -1,0 +1,23 @@
+23.04.11.
+
+1. oracle 접속
+2. download 검색 후 데이터베이스
+3. Database Express Edition
+ - Prior Release Archive
+
+SQL 다운 링크
+https://www.oracle.com/database/technologies/xe-prior-release-downloads.html
+
+
+
+
+Developer Tools
+
+SQL Developer
+
+-------------------------------------------------------
+hr_practice
+ - 01_SELECT절.sql
+ - 02_WHERE절.sql
+
+
