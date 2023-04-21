@@ -1,0 +1,36 @@
+23.04.21.
+
+
+
+www.erdcloud.com
+
+jdbc
+ - JDBCInsert
+
+C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib
+
+
+프로젝트 우클릭 후 properties -> Java build Path 
+-> 라이브러리 (class path) add external (위의 경로)
+-> ojdbc6 추가
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
