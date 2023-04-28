@@ -1,0 +1,51 @@
+23.04.27.
+
+
+
+tomcat.apache.org
+
+tomcat9 다운
+
+
+Binary Distributions -> core -> zip
+
+압출 풀때 워크 폴더에 풀기.
+
+
+
+* 설정 *
+Server Location 
+2번째 체크하기
+
+Server Options
+2번재도 체크하기
+ 
+Ports에서
+Port Number 는 겹치면 안됨.
+8080은 오라클 고유 번호라서 다른번호로 해야함
+ex) HTTP/1.1 -> 8181
+
+
+브라우저에서 서버 확인하기
+http://localhost:8181/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
