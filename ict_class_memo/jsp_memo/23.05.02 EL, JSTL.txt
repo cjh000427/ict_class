@@ -1,0 +1,30 @@
+23.05.02.
+
+
+EL폴더
+JSTL 폴더
+
+
+
+
+JSTL 적용
+maven repository 검색 후
+jstl 검색 후 2번(많이 다운 된) 클릭 후
+1.2 버전 다운로드
+Files :  jar (404 KB) 다운
+
+WEB-inf -> lib에 붙여넣기
+
+
+
+패키지
+kr.co.jsp.servlet
+
+
+
+
+
+
+
+
+
