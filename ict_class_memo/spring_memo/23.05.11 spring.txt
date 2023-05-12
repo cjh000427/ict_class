@@ -1,0 +1,28 @@
+23.05.11.
+
+이클립스 Help -> Marketpalce -> sts 검색
+
+
+구길 sts검색 -> project -> spring Tools 4 
+-> 하단부  Spring Tool Suite 3 wiki 클릭
+-> full distribution on Eclipse 4.21 버전에서 첫번째(window) 다운
+
+
+스프링 mvc프레임워크 동작 구조 이해 안감
+
+lombok 다운
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
