@@ -89,7 +89,8 @@ soft: commit만 취소, add는 남아있음
 
 *** reset취소하는 코드: git reset --hard ORIG_HEAD
 
-
+아래 명령으로 수정을 확정한다.
+git push --force
 
 
 ---------------------------------------------------
