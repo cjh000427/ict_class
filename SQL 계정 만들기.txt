@@ -1,0 +1,15 @@
+
+CREATE USER jsp IDENTIFIED BY jsp;
+
+GRANT CREATE SESSION TO jsp;
+
+GRANT CONNECT, RESOURCE TO jsp;
+
+
+
+
+
+
+
+
+
