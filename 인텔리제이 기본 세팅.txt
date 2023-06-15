@@ -1,0 +1,16 @@
+인텔리제이 다운
+
+쉬프트 2번 plugin
+
+korea 한국어 패치
+material 상단 두개 설치
+
+--------------------
+
+spring import 하는 법
+
+https://start.spring.io/
+
+GENERATE 한 파일 work파일에 압출풀기
+
+설정에서 어노테이션 처리 활성화 체크하기

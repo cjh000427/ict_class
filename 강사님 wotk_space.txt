@@ -1,1 +1,4 @@
 윈도우 + r -> \\192.168.0.36
+
+강사님 노션
+https://pineapple-rover-854.notion.site/Cloud-Native-Web-Full-stack-Developer-Course-d84f561320ab44f98daf74ba8a311d98?pvs=4
