@@ -114,15 +114,32 @@ organization 사용법
 * 깃허브 주소 주인이 승인을 해줘야 푸쉬가능
 
 
+***잘못 push 했을 때 대처법
+1. 명령어
+git rebase -i HEAD~2
+를 이용해서 일단 이전 커밋으로 이동.
+텍스트 에디터 뜨면 pick을 edit 로 수정 후 :wq 로 저장 후 종료.
 
+2. 실제 로컬 경로의  .gitignore파일을 열어서 *.yml을 추가
 
+3. git bash로 와서
+git rm -r --cached . 
+을 입력해서 현재 캐시 모두 삭제.
 
+4. git add . 
+을 이용해서 나머지 파일 모두 스테이징
 
+5. git commit --amend -m "gitignore 파일 수정 (yml 추가)"
+를 입력해서 새로운 커밋 생성.
 
+6. git rebase --continue 입력
 
+7. 한번 더 git rebase --continue 입력해서 rebase 완료 
 
+8. git push origin master --force
+입력해서 바뀐 커밋 히스토리 강제로 푸쉬.
 
-
+9. github로 들어가서 바뀐 히스토리 내역이 잘 반영되었는 지 확인.
 
 
 
